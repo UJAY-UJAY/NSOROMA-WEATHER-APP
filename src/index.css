@@ -1,0 +1,144 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+    /* background-image: url('./Pitcures/A.jpg'); */
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App {
+  margin: 50px auto;
+  border: -100;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  width: 600px;
+  height: 80vh;
+  background-color: orange; 
+  background-image: url('./Pitcures/Nsoroma\ Weather\ App1000.png');
+  background-size: 77%;
+  image-orientation:45;
+  background-position: -500px;
+  overflow: hidden;
+  background-position: bottom;
+}
+
+.search-bar {
+  
+  width: 70%;
+  margin: 0px;
+  margin-left: 100px;
+  padding: 100px;
+  position: relative;
+  
+}
+
+.p{
+  border: 0;
+  outline: 0;
+  margin-top: -20px;
+  padding-bottom: -30;
+
+}
+
+.pp{
+  border: 0;
+  outline: 0;
+  color: rgb(100, 7, 7);
+  background-color: rgb(192, 11, 57)
+  
+}
+
+.pp.click{
+color: white;
+}
+
+.allweather {
+  margin-left: 270px;
+  margin-bottom: -300px;
+  color: rgb(9, 9, 46);
+  padding-bottom: -80;
+}
+
+.allweather.location {
+  margin-bottom: -90px;
+  margin-left: 150px;
+  margin-top: -100px;
+  padding-left:250px;
+  color: rgb(160, 159, 159);
+  font-size: 2em;
+}
+
+
+
+.justtemp {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(4, 4, 39);
+  margin-bottom: -40;
+}
+
+.forecastonly {
+  font-size: 80px;
+}
+
+
+.App > h1 {
+  text-align: center;
+  color:rgb(3, 3, 43);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ALL-WEATHER-INFO {
+  font-color: white;
+  color: bisque;
+}
+
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+
+.container{
+  max-width: 960px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align: center;
+}
+
+.fullscreen-video-wrap{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow: hidden;
+}
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+
+@media(max-width:960px){
+   .container{
+    padding-right:3rem;
+    padding-left:3rem;
+  }
+}
+
+.temperaturefig {
+  font-size: 40px;
+  color: black;
+  text-shadow: black;
+
+
+}

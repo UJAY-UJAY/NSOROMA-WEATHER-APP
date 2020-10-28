@@ -1,0 +1,17 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .nsoromaapp {
+    background-color: coral;
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease-out;
+  }
